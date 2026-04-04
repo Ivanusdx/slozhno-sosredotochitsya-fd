@@ -1,4 +1,31 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root,
+.theme-dark {
+  --accent-page-image: url("../images/cover-image-dark.png"); /*для темной темы*/
+  --accent-page-bg: #000028;
+  --accent-corner: #ff0070;
+  --accept-streak-elements: #ff0070;
+  --accept-effect-text: #ff0070;
+  --accept-color-text-chadow: #ff0070;
+  --accent-color-title: #db00ff;
+  --accent-color-heading-card: #000028;
+  --accent-color-heading: #ff0070;
+  --accent-color-block-text: #ff0070;
+  --accent-color-text: #f1b2ce;
+
+  --fond-text: 18px;
+  --font-weight-text: 700;
+}
+
+.theme-light {
+  --accent-page-image: url("../images/cover-image-light.png"); /*для светлой темы*/
+  --accent-page-bg: #ffedf5;
+  --accent-corner: #353430;
+  --accept-effect-text: #ff8dcb;
+  --accept-streak-elements: #353430;
+  --accept-color-text-chadow: #ff8dcb;
+  --accent-color-title: #ffc2e6;
+  --accent-color-heading-card: #353430;
+  --accent-color-heading: #353430;
+  --accent-color-block-text: #ff8dcb;
+  --accent-color-text: #353430;
+}

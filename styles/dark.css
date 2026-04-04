@@ -4,9 +4,16 @@
   переключая тему
 */
 
-:root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+:root .theme-dark {
+  --accent-page-image: url("../images/cover-image-dark.png");
+  --accent-page-bg: #000028;
+  --accent-corner: #ff0070;
+  --accept-streak-elements: #ff0070;
+  --accept-effect-text: #ff0070;
+  --accept-color-text-chadow: #ff0070;
+  --accent-color-title: #db00ff;
+  --accent-color-heading-card: #000028;
+  --accent-color-heading: #ff0070;
+  --accent-color-block-text: #ff0070;
+  --accent-color-text: #f1b2ce;
 }
