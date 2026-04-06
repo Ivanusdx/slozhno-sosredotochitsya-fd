@@ -2,18 +2,16 @@
   --accent-page-image: url("../images/cover-image-dark.png");
   --accent-page-bg: #000028;
   --accent-corner: #ff0070;
-  --accept-streak-elements: #ff0070;
-  --accept-effect-text: #ff0070;
-  --accept-color-text-chadow: #ff0070;
-  --accent-color-title: #db00ff;
+  --accent-streak-elements: #ff0070;
+  --accent-color-text-chadow: #ff0070;
+  --accent-color-title: #d100f6;
   --accent-color-heading-card: #000028;
   --accent-color-heading: #ff0070;
   --accent-color-block-text: #ff0070;
-  --accent-color-text: #f1b2ce;
+  --accent-color-text: #1b12ce;
 }
 
-.theme-dark .circle,
-.theme-dark .rec-text 
-{
-  display: flex; 
+.theme-dark-circle,
+.theme-dark-rec-text {
+  display: flex;
 }
