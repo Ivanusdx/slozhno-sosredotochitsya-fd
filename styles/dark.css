@@ -13,7 +13,6 @@
 }
 
 .theme-dark .circle,
-.theme-dark .rec-text 
-{
+.theme-dark .rec-text {
   display: flex; 
 }
