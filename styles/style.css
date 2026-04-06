@@ -258,13 +258,13 @@ h4.title-decor{
 .footer {
   display: flex;
   justify-content: center;
+  align-items: center;
+  block-size: 100vh;
   min-block-size: 100vh;
-  min-height: 668px;
 }
 
 .footer-block-title {
-  margin-block-start: 28%;
-  margin-block-end: 27%;
+  margin: 0;
 }
 
 @media (width <= 1023px) {
@@ -335,11 +335,6 @@ h4.title-decor{
 
   .picture-title-block {
     margin-block-start: 29px;
-  }
-
-  .footer-block-title {
-    margin-block-start: 56%;
-    margin-block-end: 57%;
   }
 }
 
@@ -461,10 +456,5 @@ h4.title-decor{
 
   .picture-street {
     order: 3;
-  }
-
-  .footer-block-title {
-    margin-block-start: 68%;
-    margin-block-end: 67%;
   }
 }
