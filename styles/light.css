@@ -18,13 +18,11 @@
   --accent-color-text: #353430;
 }
 
-.theme-light .circle {
-  display: none;
-}
-
+.theme-light .circle 
 .theme-light .rec-text {
   display: none;
 }
+
 
 @media (prefers-color-scheme: light) {
   :root {
