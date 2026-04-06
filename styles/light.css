@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root .theme-light {
+ .theme-light {
   --accent-page-image: url("../images/cover-image-light.png");
   --accent-page-bg: #ffedf5;
   --accent-corner: #353430;
@@ -18,7 +18,7 @@
   --accent-color-text: #353430;
 }
 
-.theme-light .circle 
+.theme-light .circle,
 .theme-light .rec-text {
   display: none;
 }
@@ -38,4 +38,9 @@
     --accent-color-block-text: #ff8dcb;
     --accent-color-text: #353430;
   }
+
+.circle,
+.rec-text {
+  display: none;
+}
 }

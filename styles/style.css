@@ -2,8 +2,9 @@
 
 .page {
   background-image: var(--accent-page-image);
+  background-color: var(--accent-page-bg);
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   min-block-size: 100vh;
@@ -13,13 +14,14 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   min-block-size: 100vh;
-  overflow-x: hidden;
+  min-height: 668px;
 }
 
 .decorated-zone {
   position: relative;
   z-index: 2;
   min-block-size: 100vh;
+  min-height: 668px;
 }
 
 .decorated-zone .circle {
@@ -88,13 +90,12 @@
   border: none;
   font-size: var(--fond-text);
   text-transform: lowercase;
+  padding: 1px 13px 4px;
   line-height: 18px;
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid
-    color-mix(in srgb, var(--accept-streak-elements) 30%, transparent);
-  padding: 1px 13px 4px;
+  border: 1px solid color-mix(in srgb, var(--accept-streak-elements) 30%, transparent);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -105,7 +106,6 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--accept-streak-elements);
-  padding: 1px 13px 4px;
   pointer-events: none;
 }
 
@@ -153,7 +153,6 @@
 }
 
 .content_bg_color {
-  background-color: var(--accent-page-bg);
   min-block-size: 160px;
 }
 
@@ -179,7 +178,7 @@
   flex-direction: column;
   gap: 20px;
   padding-block-start: 34px;
-  min-inline-size: 648px;
+  max-inline-size: 648px;
 }
 
 .card-title-block {
@@ -202,18 +201,15 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-block-start: 26px;
-  min-inline-size: 649px;
+  padding-block-start: 22px;
+  max-inline-size: 649px;
 }
 
 .title-block {
-  margin-block-end: 20px;
+  margin-block-start: 25px;
 }
 
-.title-style {
-  background-color: var(--accent-color-block-text);
-  color: #000;
-  font-size: var(--fond-text);
+h4.title-decor{
   font-weight: 400;
 }
 
@@ -264,8 +260,8 @@
 .footer {
   display: flex;
   justify-content: center;
-  background-color: var(--accent-page-bg);
   min-block-size: 100vh;
+  min-height: 668px;
 }
 
 .footer-block-title {
@@ -328,7 +324,7 @@
   }
 
   .card-block-recommendations {
-    min-inline-size: 236px;
+    max-inline-size: 236px;
   }
 
   .cards-content-distance {
@@ -351,7 +347,7 @@
 
 @media (width<=767px) {
   .header {
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr min-content 1fr
   }
 
   .header-footer_title {
