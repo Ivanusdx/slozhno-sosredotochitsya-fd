@@ -12,15 +12,14 @@
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  block-size: 100%;
+  min-block-size: 100vh;
   overflow-x: hidden;
 }
 
 .decorated-zone {
   position: relative;
   z-index: 2;
-  min-height: 100vh;
-  block-size: auto;
+  min-block-size: 100vh;
 }
 
 .decorated-zone .circle {
@@ -266,7 +265,6 @@
   justify-content: center;
   background-color: var(--accent-page-bg);
   min-block-size: 100vh;
-  inline-size: 100%;
 }
 
 .footer-block-title {
