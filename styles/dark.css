@@ -4,7 +4,7 @@
   переключая тему
 */
 
- .theme-dark {
+.page .theme-dark {
   --accent-page-image: url("../images/cover-image-dark.png");
   --accent-page-bg: #000028;
   --accent-corner: #ff0070;
