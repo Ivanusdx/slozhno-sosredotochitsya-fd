@@ -4,13 +4,15 @@
   переключая тему
 */
 
- .theme-light {
+.theme-light {
   --accent-page-image: url("../images/cover-image-light.png");
   --accent-page-bg: #ffedf5;
   --accent-corner: #353430;
-  --accept-effect-text: #ff8dcb;
-  --accept-streak-elements: #353430;
-  --accept-color-text-chadow: #ff8dcb;
+  --accent-button: #353430;
+  --accent-effect-button: #353430;
+  --accent-effect-text: #ff8dcb;
+  --accent-streak-elements: #353430;
+  --accent-color-text-chadow: #ff8dcb;
   --accent-color-title: #ffc2e6;
   --accent-color-heading-card: #353430;
   --accent-color-heading: #353430;
@@ -23,15 +25,16 @@
   display: none;
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
     --accent-page-image: url("../images/cover-image-light.png");
     --accent-page-bg: #ffedf5;
     --accent-corner: #353430;
-    --accept-effect-text: #ff8dcb;
-    --accept-streak-elements: #353430;
-    --accept-color-text-chadow: #ff8dcb;
+    --accent-button: #353430;
+    --accent-effect-button: #353430;
+    --accent-effect-text: #ff8dcb;
+    --accent-streak-elements: #353430;
+    --accent-color-text-chadow: #ff8dcb;
     --accent-color-title: #ffc2e6;
     --accent-color-heading-card: #353430;
     --accent-color-heading: #353430;
@@ -39,8 +42,8 @@
     --accent-color-text: #353430;
   }
 
-.circle,
-.rec-text {
-  display: none;
-}
+  .circle,
+  .rec-text {
+    display: none;
+  }
 }
