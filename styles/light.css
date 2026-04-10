@@ -18,6 +18,8 @@
   --accent-color-heading: #353430;
   --accent-color-block-text: #ff8dcb;
   --accent-color-text: #353430;
+  --fond-text: 18px;
+  --font-weight-text: 700;
 }
 
 .theme-light .circle,
@@ -40,6 +42,8 @@
     --accent-color-heading: #353430;
     --accent-color-block-text: #ff8dcb;
     --accent-color-text: #353430;
+    --fond-text: 18px;
+    --font-weight-text: 700;
   }
 
   .circle,
