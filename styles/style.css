@@ -150,10 +150,6 @@
   padding: 2px;
 }
 
-.content_bg_color {
-  min-block-size: 160px;
-}
-
 .cards-content-distance {
   padding: 26px 20px;
 }
@@ -353,7 +349,7 @@ h4.title-decor {
     padding-block-end: 3px;
     line-height: 82%;
     letter-spacing: -2px;
-    font-size: (7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
   .header_block_text {

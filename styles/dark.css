@@ -16,7 +16,7 @@
   --font-weight-text: 700;
 }
 
-.theme-dark-circle,
-.theme-dark-rec-text {
+.theme-dark .circle,
+.theme-dark .rec-text {
   display: flex;
 }
